@@ -1,5 +1,5 @@
 # managedatatypes
-Manage the following data types: REST API Retrofit-Node.js-MongoDB, REST API Retrofit-PHP-MySQL, SQLite, Calendar View, Export XLS
+This example application demonstrates CRUD operations using the same four fields - date, name, email, and password and how they can be implemented using REST API Retrofit-Node.js-MongoDB, REST API Retrofit-PHP-MySQL or SQLite. In addition a Calendar View and an Export XLS serve as extras to view or save data 
 
 Download the zip file and open it on android studio
 
@@ -83,6 +83,8 @@ Additional features include the ability to view and modify the data based on the
 https://github.com/SundeepK/CompactCalendarView
 
 Any data displayed on the RecyclerView can also be exported as a .xls file as a HSSFWorkbook using the pre-installed Apache POI libraries.
+
+Also all CRUD oerations using SQLite are also demonstrated.
 
 
 
