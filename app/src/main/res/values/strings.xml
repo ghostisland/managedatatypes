@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Manage Data Types</string>
+
+    <!-- ADD YOUR IP ADDRESS FOR XXAMP OR YOUR WEBSITE URL -->
+    <string name="mysqlphpurl">http://000.000.0.00/</string>
+
+    <!--  FOR NODE.JS ADD A HEROKU URL OR ANOTHER OTHER SERVICE -->
+    <string name="mongonodeurl">https://.......herokuapp.com/</string>
+
+    <string name="addtocalendar">Added to calendar</string>
+    <string name="entryupdated">Entry updated</string>
+    <string name="fillallfields">Please fill in the fields</string>
+    <string name="noentries">No entries found</string>
+    <string name="alreadyexist">Already exists</string>
+    <string name="wrongcred">Wrong credentials</string>
+    <string name="entryfound">Entry found</string>
+    <string name="entryinsert">Entry inserted</string>
+    <string name="entrydelete">Entry deleted</string>
+    <string name="failed">Failed</string>
+
+    <string name="SQLiteActivityRecycle">SQLiteActivityRecycle</string>
+    <string name="MongoActivityRecycle">MongoActivityRecycle</string>
+    <string name="MySQLPHPActivityRecycle">MySQLPHPActivityRecycle</string>
+
+    <string name="SQLiteCalendarRecycle">SQLiteCalendarRecycle</string>
+    <string name="MongoCalendarRecycle">MongoCalendarRecycle</string>
+    <string name="MySQLPHPCalendarRecycle">MySQLPHPCalendarRecycle</string>
+
+    <string-array name="spinnerItemsSQLite">
+        <item>SQLite Select All</item>
+        <item>SQLite Select Entry</item>
+        <item>SQLite Insert Entry</item>
+        <item>SQLIte Delete All</item>
+        <item>SQLite Export XLS</item>
+    </string-array>
+
+    <string-array name="spinnerItemsMongo">
+        <item>MongoDB Select All</item>
+        <item>MongoDB Select Entry</item>
+        <item>MongoDB Insert Entry</item>
+        <item>MongoDB Delete All</item>
+        <item>MongoDB Export XLS</item>
+    </string-array>
+
+    <string-array name="spinnerItemsMySQLPHP">
+        <item>MySQL PHP Select All</item>
+        <item>MySQL PHP Select Entry</item>
+        <item>MySQL PHP Insert Entry</item>
+        <item>MySQL PHP Delete All</item>
+        <item>MySQL PHP Export XLS</item>
+    </string-array>
+
+    <string-array name="spinnerItemsCalendar">
+        <item>SQLite Data</item>
+        <item>MongoDB Data</item>
+        <item>MySQL Data</item>
+    </string-array>
+
+</resources>

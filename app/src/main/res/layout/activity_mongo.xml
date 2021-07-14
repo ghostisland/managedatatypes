@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MongoActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarMongo"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/purple_500"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        tools:visibility="visible" />
+
+    <Spinner
+        android:id="@+id/spinnerMongo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toStartOf="@+id/guidelineLeftVerMongo"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/guidelineRightVerMongo"
+        app:layout_constraintTop_toBottomOf="@+id/toolbarMongo" />
+
+    <Button
+        android:id="@+id/btnMongoSpinner"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Select"
+        app:layout_constraintEnd_toStartOf="@+id/guidelineLeftVerMongo"
+        app:layout_constraintStart_toStartOf="@+id/guidelineRightVerMongo"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerMongo" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/my_recycler_view_mongo"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:paddingTop="20dp"
+        android:scrollbars="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnMongoSpinner"
+        tools:listitem="@layout/recycler_list_item" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineLeftVerMongo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.90" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineRightVerMongo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.10" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

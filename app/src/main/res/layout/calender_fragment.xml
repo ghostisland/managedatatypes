@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CalendarFragment">
+
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.github.sundeepk.compactcalendarview.CompactCalendarView
+                android:id="@+id/compactcalendar_view"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:compactCalendarBackgroundColor="#e5e5e4"
+                app:compactCalendarCurrentDayBackgroundColor="#7E6EAFE3"
+                app:compactCalendarCurrentDayIndicatorStyle="fill_large_indicator"
+                app:compactCalendarCurrentSelectedDayBackgroundColor="#2196F3"
+                app:compactCalendarEventIndicatorStyle="small_indicator"
+                app:compactCalendarOtherMonthDaysTextColor="#534c4c"
+                app:compactCalendarShouldSelectFirstDayOfMonthOnScroll="true"
+                app:compactCalendarTextColor="#434343"
+                app:compactCalendarTextSize="14dp"
+                app:layout_constraintBottom_toTopOf="@+id/guidelinEndHorCalendar"
+                app:layout_constraintEnd_toStartOf="@+id/guidelineLeftVerCalendar"
+                app:layout_constraintStart_toStartOf="@+id/guidelineRightVerCalendar"
+                app:layout_constraintTop_toBottomOf="@+id/frameLayoutCalendar"
+                tools:visibility="visible" />
+
+            <FrameLayout
+                android:id="@+id/frameLayoutCalendar"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:background="#e5e5e4"
+                app:layout_constraintEnd_toStartOf="@+id/guidelineLeftVerCalendar"
+                app:layout_constraintStart_toStartOf="@+id/guidelineRightVerCalendar"
+                app:layout_constraintTop_toBottomOf="@+id/btnCalendarSpinner">
+
+            </FrameLayout>
+
+            <Button
+                android:id="@+id/btnCalendarSpinner"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Load"
+                app:layout_constraintEnd_toStartOf="@+id/guidelineLeftVerCalendar"
+                app:layout_constraintStart_toStartOf="@+id/guidelineRightVerCalendar"
+                app:layout_constraintTop_toBottomOf="@+id/spinnerCalendar" />
+
+            <Spinner
+                android:id="@+id/spinnerCalendar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal"
+                android:textAlignment="center"
+                app:layout_constraintEnd_toStartOf="@+id/guidelineLeftVerCalendar"
+                app:layout_constraintStart_toStartOf="@+id/guidelineRightVerCalendar"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guidelinEndHorCalendar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_percent="0.80" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guidelineLeftVerCalendar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.90" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guidelineRightVerCalendar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.10" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </FrameLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
