@@ -50,7 +50,7 @@ npm i mongoose --save
 
 Go to app>res>values>strings.xml in Android Studio and add the following:
 
-<!-- <string name="mongonodeurl">http://10.0.2.2:3003</string> -->
+<string name="mongonodeurl">http://10.0.2.2:3003</string>
 
 Type npm start into the terminal and you will be able to implement CRUD when you start the Android Studio emulator.
 
