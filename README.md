@@ -33,7 +33,7 @@ PORT = 3003
 
 url = mongodb+srv://.....
 
-Add the port in this case 3003, and also the link to your MongoDB collections after the "....."
+Add the port, in this case 3003, and also the link to your MongoDB collections after the "....."
 We don't need to create a table in this case as Node.js and MongoD will do this for us.
 
 Open a terminal and install the following:
