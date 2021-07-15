@@ -1,6 +1,9 @@
 # managedatatypes
 This example application demonstrates CRUD operations using the same four fields - date, name, email, and password and how they can be implemented using REST API Retrofit-Node.js-MongoDB, REST API Retrofit-PHP-MySQL or SQLite. In addition a Calendar View and an Export XLS serve as extras to view or save data 
 
+Video Instructions:
+https://drive.google.com/file/d/18W0ndEs44749LsI2KQtDmfuVVzJquoVG/view?usp=sharing
+
 Download the zip file and open it on android studio
 
 Set up REST API Retrofit-PHP-MySQL
