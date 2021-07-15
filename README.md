@@ -84,7 +84,7 @@ https://github.com/SundeepK/CompactCalendarView
 
 Any data displayed on the RecyclerView can also be exported as a .xls file as a HSSFWorkbook using the pre-installed Apache POI libraries.
 
-Also all CRUD oerations using SQLite are also demonstrated.
+All CRUD oerations using SQLite are also demonstrated.
 
 
 
