@@ -6,7 +6,7 @@ https://drive.google.com/file/d/18W0ndEs44749LsI2KQtDmfuVVzJquoVG/view?usp=shari
 
 Download the zip file and open it on android studio
 
-Set up REST API Retrofit-PHP-MySQL
+<b>Set up REST API Retrofit-PHP-MySQL</b>
 
 Depending on whether you are using XXAMP or another web server solution stack or a live version take note of the following.
 Open the "phpfiles" folder and drop the contents (phpmanagedatatypes folder & config.php) directly into C:\xampp\htdocs or wherever you have the folder.
