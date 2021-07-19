@@ -30,7 +30,7 @@ Now you will be able to implement CRUD using Android-Retrofit-PHP-MySQL
 
 For this you will need a code editor like Visual Studio Code and to have Node.js and MongoDB installed on your computer.
 For a live version you can open an account on heroku.com to host the Node.js server files.
-Open the folder "nodejsfiles" in Visual Studio Code and inside it create a fie called ".env" which should look like this
+Open the folder "nodejsfiles" in Visual Studio Code and inside it create a file called ".env" which should look like this
 
 PORT = 3003
 
